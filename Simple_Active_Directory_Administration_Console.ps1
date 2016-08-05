@@ -859,7 +859,7 @@ $Label20.Font = New-Object System.Drawing.Font("Tahoma", 8.25, [System.Drawing.F
 $Label20.Location = New-Object System.Drawing.Point(5, 358)
 $Label20.Size = New-Object System.Drawing.Size(169, 16)
 $Label20.TabIndex = 35
-$Label20.Text = "Found"
+$Label20.Text = "Not found"
 $Label20.ForeColor = [System.Drawing.Color]::Red
 #~~< RichTextBox3 >~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $RichTextBox3 = New-Object System.Windows.Forms.RichTextBox
