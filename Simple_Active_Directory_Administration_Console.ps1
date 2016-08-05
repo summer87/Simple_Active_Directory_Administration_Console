@@ -1,4 +1,4 @@
-#	Autor: Micha³ Saliñski
+#	Autor: Michal Salinski
 #	Wersja: 1.2.3
 #
 #
@@ -247,7 +247,7 @@ $Label35 = New-Object System.Windows.Forms.Label
 $Label35.Location = New-Object System.Drawing.Point(57, 669)
 $Label35.Size = New-Object System.Drawing.Size(122, 23)
 $Label35.TabIndex = 4
-$Label35.Text = "Author: Micha³ Saliñski"
+$Label35.Text = "Author: Michal Salinski"
 $Label35.TextAlign = [System.Drawing.ContentAlignment]::MiddleLeft
 $Label35.Visible = $false
 $Label35.add_Click({Label35Click($Label35)})
@@ -1867,7 +1867,7 @@ function Button23Click( $object ){
     $loadedIdis | Select-Object -Unique | foreach {$uniqueIdis.Add($_) }
     [array]$loadedNames = $RichTextBox4.Text.Split("`n") | % { $_.trim() }
     [array]$loadedSurnames = $RichTextBox5.Text.Split("`n") | % { $_.trim() }
-    if(-not ($loadedIdis[0].Contains("WprowadŸ")))
+    if(-not ($loadedIdis[0].Contains("WprowadÂŸ")))
     {
         if(($loadedIdis.Length -eq $loadedNames.Length -and $loadedIdis.Length -eq $loadedSurnames.Length -and $loadedNames.Length -eq $loadedSurnames.Length))
         {
